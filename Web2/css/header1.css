@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap');
+
 .container {
   width : 960px;
   margin : 0 auto;
+}
+.jua {
+  font-family: 'Jua', sans-serif;
 }
 .navi{
   width:960px;
@@ -20,6 +25,7 @@
   padding: 10px;
   text-decoration: none;
   text-align: center;
+  font-family: 'Jua', sans-serif;
 }
 .navi a:hover, .navi a:focus {
   background-color: rgb(14, 30, 56);
@@ -32,20 +38,73 @@ section{
   width:800px;
   margin: 0 auto;
 }
+img {
+  display: block;
+  margin: auto;
+}
 ul li {
   list-style: none;
 }
 h1 { 
   font-weight:400px;
-  font-size:200%;
+  font-size:250%;
   text-align: center;
+  font-family:'Jua', sans-serif;
 }
 h1 a:visited, h1 a:link {
   text-decoration: none;
-  color: rgb(80, 74, 74);
-  text-shadow: 3px 2px 5px rgb(215, 213, 213)
+  color: rgb(27, 24, 43);
+  text-shadow: 1px 1px 1px rgb(215, 213, 213);
+  font-family: 'Jua', sans-serif;
+  letter-spacing: 0.1em;
 }
 h2 {
-  font-size: 170%;
-  font-weight:200px;
+  font-size: 150%;
+  color: rgba(0, 0, 0, 0.835);
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: rgb(232, 246, 255);
+  width: 700px;
+  letter-spacing: 0.1em;
+}
+
+table {
+  width: 100%;
+  border: 2px solid rgb(7, 11, 50);
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px
+}
+th, td {
+  border: 1px solid rgb(19, 24, 71);
+  padding:10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+thead {
+  background-color:rgb(18, 28, 59);
+  color: white;
+}
+
+tbody tr:nth-child(2n) {
+  background-color:rgb(213, 217, 255)
+}
+
+tbody tr:nth-child(2n+1) {
+  background-color:rgb(232, 246, 255)
+}
+
+.quote {
+  border: 2px dashed rgb(18, 28, 59);
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color:rgb(235, 234, 234);
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 25px
 }
